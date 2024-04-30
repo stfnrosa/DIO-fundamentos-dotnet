@@ -32,19 +32,24 @@ namespace _3.calculadora.Models
         {
             double radiando = angulo * (Math.PI /180);
             double seno = Math.Sin(radiando);
-            Console.WriteLine($"Seno de {angulo} = {seno}");
+            Console.WriteLine($"Seno de {angulo} = {Math.Round(seno,4)}");
         }
         public void Coseno(double angulo)
         {
             double radiando = angulo * (Math.PI /180);
             double coseno = Math.Cos(radiando);
-            Console.WriteLine($"Coseno de {angulo} = {coseno}");
+            Console.WriteLine($"Coseno de {angulo} = {Math.Round(coseno,4)}");
         }
         public void Tangente(double angulo)
         {
             double radiando = angulo * (Math.PI /180);
             double tangente = Math.Tan(radiando);
-            Console.WriteLine($"Tangente de {angulo} = {tangente}");
+            Console.WriteLine($"Tangente de {angulo} = {Math.Round(tangente,4)}");
+        }
+        public void RaizQuadada(double x)
+        {
+            double raiz = Math.Sqrt(x);
+            Console.WriteLine($"Raiz quadrada de {x} = {Math.Round(raiz,4)}");
         }
     }
 }
