@@ -1,7 +1,7 @@
 ﻿using tipos_de_dados.Models;
 Pessoa pessoa1 = new Pessoa();
 
-pessoa1.Nome = "Estefani";
+pessoa1.Nome = "Estefani Rosa";
 pessoa1.Idade = 23;
 pessoa1.Apresentar();
 
